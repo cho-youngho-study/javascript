@@ -33,7 +33,7 @@ function print(animal) {
 }
 
 
-function print(name, age, status) {
+function print({name, age, status}) {
     const text = `${name}은 ${age}살 이고 상태는 ${status} 입니다.`;
     console.log("Object - 비구조화 할당 : ", text);
 }
